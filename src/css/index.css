@@ -1,0 +1,144 @@
+@font-face{
+  font-family: OpenSans;
+  font-weight: normal;
+  font-style: normal;
+  src:url('./font/OpenSans/OpenSans-Regular.ttf')
+}
+
+body,html{
+  padding: 0px;
+  margin: 0px;
+  font-family: OpenSans;
+}
+
+.google_main_container{
+  margin: 0 auto;
+  width: 400px;
+  height: 450px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 48px 40px 36px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+
+}
+
+.google_image_container, .google_h1_container, .google_span_container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.google_logo{
+  width: 75px;
+  height: 43px; 
+}
+
+.google_h1{
+  margin: 0px;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.05px;
+  color: #202124;
+}
+
+.google_span{
+  padding-top: 8px;
+  font-size: 16px;
+  color: #202124;
+  font-weight: 400;
+}
+
+.separator{
+  padding-top: 48px;
+
+}
+
+.form_label, .form_input{
+  padding: 0;
+} 
+
+.form_label{
+  display: block;
+  width: 100%;
+  height: 38px;
+  margin-bottom: 8px;
+  padding: 8px 10px;
+  padding-top: 15px;
+  position: relative;
+  border: 2px solid #1A73E8;
+  border-radius: 4px;
+}
+
+.form_span{
+  font-size: 15px;
+  color: #1A73E8;
+  font-weight: 500;
+  position: absolute;
+  left: 2px;
+  top: -10px;
+  padding: 0px 5px;
+  background-color: white;
+  font-size: 12px;
+}
+
+.form_input{
+  display: block;
+  width: 100%;
+  font-size: 15px;
+  color: #202124;
+  font-weight: 500;
+  border: none;
+  outline: none;
+}
+
+.google_btn_container{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.separator2{
+  margin-bottom: 45px;
+}
+
+._link{
+  color: #1A73E8;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.more_info{
+  color: #777;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.google_btn_create_account{
+  padding: 10px 30px;
+  background-color: #1A73E8;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+}
+
+.google_btn_create_account:hover{
+  background-color: #1e65c2;
+  cursor: pointer;
+}
+
+.google_btn_create_account:focus{
+  outline: none;
+}
+
+.red_bg{
+  border: 2px solid red;
+}
+
+.red{
+  color: red;
+}
